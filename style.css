@@ -1,0 +1,64 @@
+header{
+    background-image: url("assets/image-header.png");
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+.BIL{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    height: 20%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.hero{
+    display: flex;
+    text-align: end;
+    flex-direction: row;
+    padding-block: 4%;
+}
+    
+h1{
+    font-family: "DM Sans", sans-serif;
+    font-style: "Regular";
+    font-size: 160;
+    color: white;
+}
+p{
+    font-family: "DM Sans", sans-serif;
+    font-style: Bold;
+    font-size: 28;
+    color: white;
+}
+.noir{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+}
+.rouge{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.moi{
+    padding: 80px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+
+
