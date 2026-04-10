@@ -60,5 +60,87 @@ p{
     gap: 20px;
     align-items: start;
 }
+.bingo{
+    background-color: black;
+    padding: 250px;
+    margin: auto;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+}
+h2{
+    color: white;
+     font-family: "DM Sans", sans-serif;
+     font-style: "Regular";
+     font-size: 48;
+}
+.grand{
+     font-family: "DM Sans", sans-serif;
+     font-style: "Regular";
+     font-size: 20;
+}
+.section-img{
+    background-image: url(assets/section-img.png);
+     background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+.date{
+    list-style: none;
+    background-color: black;
+    padding: 250px;
+    align-items: center;
+    text-align: center;
+}
 
+ul{
+    color: white;
+    list-style: none;
+    
+}  
+.banniere{
+    background-image: url(assets/banniere-logo.png);
+    background-size: cover;
+    align-content: center;
+    width: auto;
+    padding: 150px;
+    margin: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+.logo{
+    height: 40px;
+    margin-right: 20px;
+}
+.contact{
+    background-color: black;
+    color: white;
+    padding: 150px;
+    margin: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+.tout{
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 700px;
+    
+}
+.no{
+    flex-direction: row;
+    color: black;
+    justify-content: end;
+    
+}
+.si{
+    color: black;
+}
 
